@@ -1,0 +1,17 @@
+CREATE TABLE admin_details(name varchar2(50),address varchar2(150),id varchar(10),gender varchar(20), phno number(10), dateob varchar(20), pass varchar(30))
+
+
+create table emlogin (userid varchar2(50), usertyp varchar2(50),pass varchar2(30))
+
+
+Create table subscriber_details(name varchar(100),address varchar(250),meter_no number(30), gender varchar(15), phone number(10), subid varchar(30), meter_type varchar(20), watt_limit number(20), dateofb dob, aadhar number(20))\
+
+create table ipaddresses(SubsId varchar(50), meterip varchar(50), switchip varchar(50))
+
+
+create table payhis(Subscriber_ID varchar(100), Total_Watt number(30), Total_Price number(30), Payment_Date varchar(80), transid1 varchar(30))
+
+
+CREATE TABLE pers_details(name varchar2(50),address varchar2(150),id varchar(10),gender varchar(20), phno number(10), dateob varchar(20), pass varchar(30))
+
+CREATE TABLE sys_bank(moneyin number(30), moneyout number(30), dateoftran varchar(30), transid varchar(30), transtype varchar(30))
